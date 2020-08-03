@@ -198,19 +198,19 @@ body {
 
 /* page header */
 
-.page-header {
-  align-items: center;
-}
+/* height: 81px;
+margin-bottom: 94px;
+
+ */
 
 .flexbox-header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-bottom: 93px;
 }
 
 .flexbox-activities {
-  margin-bottom: 93px;
+  margin-bottom: 94px;
 }
 
 /* .main-nav */
@@ -300,7 +300,7 @@ body {
 }
 
 .hero .button {
-  margin-bottom: 294px;
+  margin-bottom: 200px;
 }
 
 .button {
@@ -464,7 +464,8 @@ p.par .feature {
 
 /* Список teams */
 
-.teams-box {
+.container.our-teams {
+  margin-top: 94px;
   margin-bottom: 94px;
 }
 
@@ -539,6 +540,7 @@ p.par .feature {
 /* список clients */
 
 .section.clients {
+  margin-top: 94px;
   margin-bottom: 94px;
 }
 
@@ -668,15 +670,20 @@ address {
 
 /* Стили portfolio.html */
 
-/* Button style */
+.container.main-container {
+  margin-bottom: 94px;
+}
+
+.page-header.portfolio-page {
+  border: 1px solid #ececec;
+  margin-bottom: 94px;
+}
 
 .title-portfolio {
   margin: 0;
 }
 
-.container.main-container {
-  margin-bottom: 94px;
-}
+/* Button style */
 
 .filter {
   display: flex;
@@ -700,6 +707,11 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+
+  background: #f5f4fa;
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 button.accent {
